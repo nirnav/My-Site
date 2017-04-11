@@ -31,3 +31,36 @@ e:\users\2nir2\documents\visual studio 2015\Projects\WebApplication1\WebApplicat
 e:\users\2nir2\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 e:\users\2nir2\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 e:\users\2nir2\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\ApplicationInsights.config
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\WebApplication1.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.Agent.Intercept.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.PerfCounterCollector.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.ApplicationInsights.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.DependencyCollector.xml
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.Web.xml
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.ApplicationInsights.xml
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+e:\Users\2nir2\Documents\GitHub\asite\My-Site\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
