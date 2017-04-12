@@ -44,7 +44,7 @@ namespace WebApplication1
                 reader = command.ExecuteReader();
                 if (reader.Read())
                 {
-                    messege = "A member with this username already exists";
+                    messege =  messege + "A member with this username already exists";
                     check = false;
                 }
                 reader.Close();
