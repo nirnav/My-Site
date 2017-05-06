@@ -17,7 +17,7 @@
             var sclass = form["Sclass"].value;
             var check = true;
           
-            if (sclass == null)
+            if (sclass == 'NA')
             {
                 alert("Please choose your sailing class");
                 check = false;
@@ -72,13 +72,14 @@
     </div>
     <div>
         <select name="Sclass" id="Sclass">
-        <option value="Laser 4.7">Laser 4.7</option>
-        <option value="Laser Radial">Laser Radial</option>
-        <option value="Laser Standard">Laser Standard</option>
-        <option value="Optimist">Optimist</option>
-        <option value="470">470</option>
-        <option value="420">420</option>
-        <option value="RS:X">RS:X</option>
+            <option value="NA">Choose a class</option>
+            <option value="Laser 4.7">Laser 4.7</option>
+            <option value="Laser Radial">Laser Radial</option>
+            <option value="Laser Standard">Laser Standard</option>
+            <option value="Optimist">Optimist</option>
+            <option value="470">470</option>
+            <option value="420">420</option>
+            <option value="RS:X">RS:X</option>
         </select>
     </div>
     <div>
