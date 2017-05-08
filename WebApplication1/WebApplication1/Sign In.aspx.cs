@@ -28,11 +28,12 @@ namespace WebApplication1
                 {
                     Session["UserId"] = reader.GetInt32(0);
                     Session["Username"] = username;
+                    Session["Name"] = reader.GetString(3);
                     Response.Redirect("Index.aspx");
                 }
                 else
                 {
-                    failed = "The username or password you entered were wrong";
+                    failed = "The username or password you entered were wrong.";
                 }
                 reader.Close();
                 connection.Close();

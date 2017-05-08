@@ -102,6 +102,7 @@
     <Content Include="Sign In.aspx" />
     <Content Include="Create Event.aspx" />
     <Content Include="Sign Out.aspx" />
+    <Content Include="Personal Zone.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -150,6 +151,13 @@
     </Compile>
     <Compile Include="Sign Out.aspx.designer.cs">
       <DependentUpon>Sign Out.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personal Zone.aspx.cs">
+      <DependentUpon>Personal Zone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personal Zone.aspx.designer.cs">
+      <DependentUpon>Personal Zone.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

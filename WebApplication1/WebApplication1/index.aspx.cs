@@ -10,7 +10,6 @@ namespace WebApplication1
 {
     public partial class index : System.Web.UI.Page
     {
-        public string signIn = "";
         public string message = "Hello guest!";
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -20,9 +19,7 @@ namespace WebApplication1
             if (Session["UserId"] != null)
             {
                 message = "Hello " + Session["Username"];
-                signIn = "<a href = \"Sign out.aspx\"><u>Sign out</u></a>";
             }
-            else signIn = "<p>Click <a href = \"Sign In.aspx\"><u>here</u></a> to sign in</p>";
             connection.Close();
         }
     }

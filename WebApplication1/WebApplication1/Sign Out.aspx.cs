@@ -12,7 +12,7 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             Session.Abandon();
-            Response.Redirect("index.aspx");
+            Response.Redirect("Front.aspx");
         }
     }
 }

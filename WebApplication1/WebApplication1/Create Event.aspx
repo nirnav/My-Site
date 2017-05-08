@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Create Event Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
  <script type="text/javascript">
      function validateForm() {
 
@@ -18,7 +18,7 @@
          var check = true;
         
          if ((username.length < 5) || (username.length > 50)) {
-             alert("Your username should be between 5 and 50 characters long");
+             alert("Your event's name should be between 5 and 50 characters long");
              check = false;
          }
          if (loc == null) {
@@ -43,7 +43,7 @@
 </head>
 <body>
 <h3>Create your own custom event!</h3>
-<h5><%%></h5>
+<h5><%=message%></h5>
     <form id="createEvnet" runat="server" onsubmit="return validateForm()" method="post">
     <table>
         <tr>
@@ -52,7 +52,7 @@
     </tr>
     <tr>
         <td>Enter a date for your event:</td>
-        <td><input type="date" name="date" min="1979-12-31"/></td>
+        <td><input type="date" name="edate"/></td>
     </tr>
     <tr>
         <td>Enter the location for your event:</td>

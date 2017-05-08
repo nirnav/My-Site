@@ -8,7 +8,9 @@
 </head>
 <body>
     <h3><%=message%></h3>
-    <%=signIn%>
-    list 5 newest competitions and link to their page. link to search option.
+    <a href ="Sign out.aspx">Sign out</a>
+    <a href ="Personal Zone.aspx">Personal Zone</a>
+    <br/>
+    מציג תחרויות
 </body>
 </html>

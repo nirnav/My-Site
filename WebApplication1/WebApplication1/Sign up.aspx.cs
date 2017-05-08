@@ -11,11 +11,7 @@ namespace WebApplication1
     public partial class WebForm1 : System.Web.UI.Page
     {
         public string message = "";
-        public string fullname;
-        public string username;
-        public string email;
-        public string sclass;
-        string password;
+  
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.HttpMethod == "POST")
@@ -25,18 +21,18 @@ namespace WebApplication1
                 connection.Open();
                 SqlCommand command = connection.CreateCommand();
 
-                fullname = Request.Form["FullName"];
-                username = Request.Form["Username"];
-                email = Request.Form["Email"];
-                password = Request.Form["Password"];
-                sclass = Request.Form["Sclass"];
+                string fullname = Request.Form["FullName"];
+                string username = Request.Form["Username"];
+                string email = Request.Form["Email"];
+                string password = Request.Form["Password"];
+                string sclass = Request.Form["Sclass"];
 
                 bool check = true;
                 command.CommandText = String.Format("SELECT Email FROM Users WHERE Email='{0}' ", email);
                 SqlDataReader reader = command.ExecuteReader();
                 if (reader.Read())
                 {
-                    message = "A member with this E-mail already exists</br>";
+                    message = "A member with this E-mail already exists.</br>";
                     check = false;
                 }
                 reader.Close();
@@ -44,7 +40,7 @@ namespace WebApplication1
                 reader = command.ExecuteReader();
                 if (reader.Read())
                 {
-                    message =  message + "A member with this username already exists";
+                    message =  message + "A member with this username already exists.";
                     check = false;
                 }
                 reader.Close();
@@ -54,13 +50,13 @@ namespace WebApplication1
                     {
                         command.CommandText = string.Format("INSERT INTO Users (FullName, Username, Email, Password, Class) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}');", fullname, username, email, password, sclass);
                         command.ExecuteNonQuery();
-                        message = "Sign Up Succeful! <a href = \"Sign In.aspx\"><u>Sign in</u></a> to your account, or <a href = \"Index.aspx\"><u>return home</u></a>";
+                        message = "Sign Up Succeful! <a href = \"Sign In.aspx\"><u>Sign in</u></a> to your account, or return to the <a href = \"Front.aspx\"><u>front page.</u></a>";
 
 
                     }
                     catch
                     {
-                        message = "An error occurred during signup, please try again .<br/>";
+                        message = "An error occurred during signup, please try again.<br/>";
                     }
                 }
 
