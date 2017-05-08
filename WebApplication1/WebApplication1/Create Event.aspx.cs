@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Data.SqlClient;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -15,7 +15,7 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["UserId"] == null)
-                Response.Redirect("Sign In.aspx");
+                Response.Redirect("Front.aspx");
             if (Request.HttpMethod == "POST")
             {
                 string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\SiteDB.mdf;Integrated Security=True";
@@ -32,12 +32,12 @@ namespace WebApplication1
 
                 //try
                 //{
-                    command.CommandText = string.Format("INSERT INTO Events (Name, EDate, Location, Class, Description, OrginizerId) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}');", name, edate, location, sclass, description, Session["UserId"]);
+                    command.CommandText = string.Format("INSERT INTO SEvents (Name, EDate, Location, Class, Description, OrginizerId) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}');", name, edate, location, sclass, description, Session["UserId"]);
                     command.ExecuteNonQuery();
                     
                 try
                 {
-                    command.CommandText = "SELECT TOP 1 * FROM Table ORDER BY ID DESC";
+                    command.CommandText = "SELECT TOP 1 * FROM SEvents ORDER BY ID DESC";
                     SqlDataReader reader = command.ExecuteReader();
                     int Tname = reader.GetInt32(0);
                     reader.Close();

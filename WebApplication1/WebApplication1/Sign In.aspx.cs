@@ -29,7 +29,7 @@ namespace WebApplication1
                     Session["UserId"] = reader.GetInt32(0);
                     Session["Username"] = username;
                     Session["Name"] = reader.GetString(3);
-                    Response.Redirect("Index.aspx");
+                    Response.Redirect("Home.aspx");
                 }
                 else
                 {
